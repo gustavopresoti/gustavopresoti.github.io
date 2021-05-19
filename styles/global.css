@@ -230,10 +230,22 @@ a {
   grid-area: linkedin;
 }
 
+.s4 .linkedin img:hover {
+  background: #0e76a8;
+  border: 2px solid #0e76a8;
+  border-radius: 2px;
+}
+
 .s4 .github {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: github;
+}
+
+.s4 .github img:hover {
+  background: #000;
+  border: 2px solid #000;
+  border-radius: 50%;
 }
 
 .s4 p {

@@ -24,7 +24,8 @@
         <h1 class="line typing-animation">Gustavo Presoti</h1>
 
         <p>
-          Graduando em Ciência da Computação <br /> <br />
+          Graduando em Ciência da Computação <br />
+          <br />
 
           <strong>Node.js | Flutter | React | Typescript | Jest</strong>
         </p>
@@ -60,6 +61,7 @@
         </div>
       </div>
 
+      <!--
       <div class="section s3">
         <div class="projects">
           <div class="card">
@@ -141,6 +143,9 @@
           </div>
         </div>
       </div>
+    -->
+
+      <div class="section s3 fp-auto-height"></div>
 
       <div class="section s4 fp-auto-height">
         <h1>Contato</h1>
@@ -196,29 +201,25 @@
         navigationTooltips: ['Início', 'Sobre', 'Projetos', 'Contato'],
         scrollingSpeed: 1000,
 
-
         sectionsColor: ['#00106d', '#0d27bb', '', '#141414'],
 
         controlArrows: true,
         verticalCentered: true,
 
-        onLeave: function(origin, destination, direction) {
-          if(destination.index == 2) {
+        onLeave: function (origin, destination, direction) {
+          if (destination.index == 2) {
             jQuery(function () {
-              $(".fp-right").addClass("changeNavColor");
-              $(".fp-tooltip").addClass("changeNavColor");
-            });
-          } else if(origin.index == 2) {
+              $('.fp-right').addClass('changeNavColor')
+              $('.fp-tooltip').addClass('changeNavColor')
+            })
+          } else if (origin.index == 2) {
             jQuery(function () {
-              $(".fp-right").removeClass("changeNavColor");
-              $(".fp-tooltip").removeClass("changeNavColor");
-            });
+              $('.fp-right').removeClass('changeNavColor')
+              $('.fp-tooltip').removeClass('changeNavColor')
+            })
           }
-        }
+        },
       })
-
     </script>
-      
-    
   </body>
 </html>
