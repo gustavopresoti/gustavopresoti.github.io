@@ -2,17 +2,224 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gustavo Presoti | Dev</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;600;700;800&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css"
+    />
+    <link rel="stylesheet" href="styles/global.css" />
 
-    <link href="/dist/main.css" rel="stylesheet">
-    
-    <title>Gustavo Presoti | Desenvolvedor Full-Stack</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body class="bg-backgroundColor">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+  <body>
+    <div id="fullpage">
+      <div class="section s1">
+        <h1 class="line typing-animation">Gustavo Presoti</h1>
+
+        <p>
+          Graduando em Ciência da Computação <br />
+          <br />
+
+          <strong>Node.js | Flutter | React | Typescript | Jest</strong>
+        </p>
+
+        <a href="#section2">
+          <button>Saiba mais</button>
+        </a>
+      </div>
+
+      <div class="section s2">
+        <h1>Quem sou eu?</h1>
+
+        <div class="table">
+          <img src="https://github.com/gustavopresoti.png" />
+
+          <p>
+            Sou técnico em Automação Industrial pelo IFMG - Campus Ouro Preto,
+            atualmente cursando Ciência da Computação na Universidade Federal de
+            Ouro Preto. Sou um entusiasta da área de desenvolvimento de
+            software, atualmente em busca de oportunidades de estágio a fim de
+            aprender sobre o mercado e suas atuais tencologias, aperfeiçoar os
+            conhecimentos já adquiridos e conviver em um cenário com problemas e
+            soluções reais. <br />
+            <br />
+            Moro em uma república, em Ouro Preto, onde aprendi e desenvolvi
+            bastante minhas habilidades interpessoais, tendo facilidade de
+            trabalhar em grupos e fazer amizades. Me considero proativo por
+            estar sempre em busca de fazer mais e melhor. Gosto de novos
+            desafios, pois me fazem correr atrás de mais informações e soluções
+            para os problemas. Como a tecnologia é capaz de transformar o mundo,
+            me esforço sempre para ser capaz de ajudar nesse propósito!
+          </p>
+        </div>
+      </div>
+
+      <!--
+      <div class="section s3">
+        <div class="projects">
+          <div class="card">
+            <img src="https://github.com/diego3g.png" />
+
+            <div class="cardContainer">
+              <h4><b>Projeto One</b></h4>
+              <p>Mussum Ipsum, cacilds vidis litro abertis. Paisis, filhis, 
+                espiritis santis. Não sou faixa preta cumpadi, sou preto 
+                inteiris, inteiris. Praesent malesuada urna nisi, quis volutpat 
+                erat hendrerit non. Nam vulputate dapibus. Mais vale um bebadis 
+                conhecidiss, que um alcoolatra anonimis.
+                Mussum Ipsum, cacilds vidis litro abertis. Paisis, filhis, 
+                espiritis santis. Não sou faixa preta cumpadi, sou preto 
+                inteiris, inteiris. Praesent malesuada urna nisi, quis volutpat 
+                erat hendrerit non. Nam vulputate dapibus. Mais vale um bebadis 
+                conhecidiss, que um alcoolatra anonimis.</p>
+            </div>
+            
+            <div class="right-arrow">
+              <a href="https://google.com">
+                <img src="public/arrow-right.png">
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="https://github.com/diego3g.png" />
+            
+            <div class="cardContainer">
+              <h4><b>Projeto Two</b></h4>
+              <p>Mussum Ipsum, cacilds vidis litro abertis. Pra lá , depois 
+                divoltis porris, paradis. Mé faiz elementum girarzis, nisi eros 
+                vermeio. Copo furadis é disculpa de bebadis, arcu quam euismod 
+                magna. Nullam volutpat risus nec leo commodo, ut interdum diam 
+                laoreet. Sed non consequat odio.</p>
+            </div>
+
+            <div class="right-arrow">
+              <a href="https://google.com">
+                <img src="public/arrow-right.png">
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="https://github.com/diego3g.png" />
+            <div class="cardContainer">
+              <h4><b>Projeto Three</b></h4>
+              <p>Mussum Ipsum, cacilds vidis litro abertis. Per aumento de 
+                cachacis, eu reclamis. Interagi no mé, cursus quis, vehicula ac 
+                nisi. Casamentiss faiz malandris se pirulitá. Atirei o pau no 
+                gatis, per gatis num morreus.</p>
+            </div>
+
+            <div class="right-arrow">
+              <a href="https://google.com">
+                <img src="public/arrow-right.png">
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="https://github.com/diego3g.png" />
+            <div class="cardContainer">
+              <h4><b></b>Projeto Four</b></h4>
+              <p>Mussum Ipsum, cacilds vidis litro abertis. In elementis mé pra 
+                quem é amistosis quis leo. Mauris nec dolor in eros commodo 
+                tempor. Aenean aliquam molestie leo, vitae iaculis nisl. 
+                Delegadis gente finis, bibendum egestas augue arcu ut est. Copo 
+                furadis é disculpa de bebadis, arcu quam euismod magna.</p>
+            </div>
+
+            <div class="right-arrow">
+              <a href="https://google.com">
+                <img src="public/arrow-right.png">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    -->
+
+      <div class="section s3 fp-auto-height"></div>
+
+      <div class="section s4 fp-auto-height">
+        <h1>Contato</h1>
+
+        <div class="contact">
+          <div class="email">
+            <a
+              href="mailto:gu.presoti@gmail.com?subject=Interesse%20Profissional&?body=Ol%C3%A1%20Gustavo%2C%0D%0A%0D%0AAtt%2C%0D%0A"
+            >
+              <button>Email</button>
+            </a>
+          </div>
+
+          <div class="whatsapp">
+            <a
+              href="https://api.whatsapp.com/send?phone=5531989797951&text=Ol%C3%A1%2C%20Gustavo!%20Gostaria%20de%20conversar%20sobre%20um%20projeto%2Fvaga%20dispon%C3%ADvel%20para%20voc%C3%AA."
+              target="_blank"
+            >
+              <button>Whatsapp</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="linkedin">
+            <a
+              href="https://www.linkedin.com/in/gustavo-presoti-639089120/"
+              target="_blank"
+            >
+              <img src="public/linkedin-logo.png" height="50rem" />
+            </a>
+          </div>
+
+          <div class="github">
+            <a href="https://github.com/gustavopresoti" target="_blank">
+              <img src="public/github-light-logo.png" height="50rem" />
+            </a>
+          </div>
+
+          <p>2021 - Desenvolvido por <strong>Gustavo Presoti</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+      new fullpage('#fullpage', {
+        scrollHorizontally: true,
+        anchors: ['section1', 'section2', 'section3', 'section4'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['Início', 'Sobre', 'Projetos', 'Contato'],
+        scrollingSpeed: 1000,
+
+        sectionsColor: ['#00106d', '#0d27bb', '', '#141414'],
+
+        controlArrows: true,
+        verticalCentered: true,
+
+        onLeave: function (origin, destination, direction) {
+          if (destination.index == 2) {
+            jQuery(function () {
+              $('.fp-right').addClass('changeNavColor')
+              $('.fp-tooltip').addClass('changeNavColor')
+            })
+          } else if (origin.index == 2) {
+            jQuery(function () {
+              $('.fp-right').removeClass('changeNavColor')
+              $('.fp-tooltip').removeClass('changeNavColor')
+            })
+          }
+        },
+      })
+    </script>
   </body>
 </html>
